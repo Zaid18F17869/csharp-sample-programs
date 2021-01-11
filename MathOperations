@@ -1,0 +1,13 @@
+// Sample c# program to demostrate different math operations
+
+using System;
+
+class Operations 
+{
+    public void Addition(int a, int b)
+    {
+        int sum = 0;
+        sum = a + b;
+        Console.WriteLine("the addition is " + sum);
+    }
+}
