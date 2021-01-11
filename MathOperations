@@ -10,4 +10,11 @@ class Operations
         sum = a + b;
         Console.WriteLine("the addition is " + sum);
     }
+    
+    public void Subtration(int a, int b)
+    {
+        int difference = 0;
+        difference = a - b;
+        Console.WriteLine("the difference is " + difference);
+    }
 }
