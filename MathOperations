@@ -17,4 +17,11 @@ class Operations
         difference = a - b;
         Console.WriteLine("the difference is " + difference);
     }
+    
+    public void Average(int a, int b)
+    {   
+        double average;
+        average = (a+b) / 2;
+        Console.WriteLine("The average is " + average);
+    }
 }
